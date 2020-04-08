@@ -1,0 +1,249 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-family: Raleway,sans-serif;
+}
+
+/*header*/
+
+header{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+
+.mainvideo{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100vh;
+	z-index:-100;
+}
+
+h1{
+	margin: 15px;
+	letter-spacing: 4px;
+	font-size: 55px;
+	font-weight: 600;
+}
+
+.btn{
+	background-color: #23b5b5;
+	color: black;
+	padding: 12px;
+	min-width: 160px;
+	text-align: center;
+	font-weight: 900;
+	text-decoration: none;
+	margin-top: 15px;
+	border: 1px solid #ffffff;
+
+}
+
+i{
+	margin: 0px 8px;
+}
+
+nav{
+	height: 70px;
+	margin: 0;
+	display: flex;
+	background-color: lightgreen;
+	border: 1px solid white;
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+	transition: all .4s;
+
+}
+
+nav.scrolled{
+	background-color: white;
+
+}
+
+.navbar{
+	display: flex;
+
+
+}
+
+.navbar li{
+	margin-top: 10px;
+	list-style-type: none;
+	display: flex;
+	margin-left: 45px;
+	margin-bottom: 10px;
+	font-size: 30px;
+
+}
+
+.navbar li a{
+	text-decoration: none;
+	color: black;
+}
+
+.navbar li a:hover{
+	border: 1px solid white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p{
+	line-height: 2;
+}
+
+.wrapper{
+	height: 400px;
+	margin: 0;
+	
+}
+
+div.description{
+	font-size: 30px;
+
+}
+
+div.thumbnail img{
+	height: 400px;
+	width: 600px;
+}
+
+section{
+	padding: 15px;	
+	display: flex;
+}
+
+/*dropdown button styling*/
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdowncontent{
+	position: absolute;
+	display: none;
+	background-color: #f9f9f9;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdowncontent a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.dropdowncontent a:hover{
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+/* dropdown button styling ends here */
+
+/* contect section styling starts here*/
+
+.envelop{
+	background-color: lightblue;
+	margin:20px 0px;
+
+}
+
+.envelop h1{
+	color: white;
+}
+
+.contact{
+	flex-direction: column;
+
+}
+
+.contact form{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact form input , .contact form textarea{
+	padding: 12px;
+	margin-top: 2px;
+	font-family: "Raleway";
+}
+
+.contact form input[type="submit"]{
+	background-color: black;
+	color: white;
+	border: none;
+
+}
+.contact form input[type="submit"]:hover{
+	background-color: grey;
+}
+
+/*stylilng of the footer begins */
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 16px;
+}
+
+.socialicons{
+	margin:16px;
+	font-size: 32px;
+}
+
+.socialicons a{
+	color: white;
+}
+
+footer i{
+	transition: all .6s;
+}
+
+footer .fa-twitter-square:hover{
+	color: #3c5a99;
+
+}
+
+footer .fa-instagram:hover{
+	color: #e1386c;
+
+}
+
+footer .fa-facebook:hover{
+	color: #1da1f2;
+
+}
+
+/*smooth scrolling*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
