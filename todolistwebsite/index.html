@@ -6,87 +6,71 @@
 </head>
 <body id="body">
 
-<!-- <div class="toggle">
-	<button class = "toggle-button" type="submit" onclick="toggledark()">Dark Mode</button>	
-</div> -->
+
 	<h1 class="title">My To Do List</h1>
 
 	<div class="all-tasks">
 		<h2 class="task-list-title">My lists</h2>
-		<ul class="task-list">
-			<li class="list-name active-list">Youtube</li>
-			<li class="list-name">Work</li>
-			<li class="list-name">Grocery</li>
+		<ul class="task-list" Data-lists>
 		</ul>
 
-		<form action="" class="all-tasks-form">
-		  <input type="text" class="new list" placeholder="new list name" aria-label= "new list name">
+		<form  class="all-tasks-form" Data-new-list-form>
+		  <input 
+		  	type="text" 
+		  	class="new list"
+		  	placeholder="new list name" 
+		  	aria-label= "new list name"
+		  	Data-new-list-input
+		  />
 		  <button class="btn create" aria-label = "create new list">+</button>	
 		</form>
 	</div>
 
 
 
-	<div class="todo-list">
+	<div class="todo-list"  Data-list-display-container>
 		<div class="todo-header">
-			<h2 class="list-title">YouTube</h2>
-			<p class="task-count">3 tasks remaining</p>
+			<h2 class="list-title" Data-list-title>YouTube</h2>
+			<p class="task-count" Data-list-count>3 tasks remaining</p>
 		</div>
 
 		<div class="todo-body">
-			<div class="tasks">
-				<div class="task">
-					<input type="checkbox" id="task-1">
-					<label for="task-1">
-						<span class="custom-checkbox"></span>
-						record todo video
-					</label>
-				</div>
-				<!-- /task 1 -->
-
-				<div class="task">
-					<input type="checkbox" id="task-2">
-					<label for="task-2">
-						<span class="custom-checkbox"></span>
-						record todo video
-					</label>
-				</div>
-				<!-- /task 2 -->
-
-				<div class="task">
-					<input type="checkbox" id="task-3">
-					<label for="task-3">
-						<span class="custom-checkbox"></span>
-						record todo video
-					</label>
-				</div>
-			</div>
+			<div class="tasks" Data-tasks></div>
 
 
 			<div class="new-task-creator">
-				<form action="" class="todo-form">
-				  <input type="text" class="new task" placeholder="new task name" aria-label= "new task name">
+				<form action="" class="todo-form" Data-new-task-form>
+				  <input 
+				  type="text" 
+				  Data-new-task-input
+				  class="new task" 
+				  placeholder="new task name" 
+				  aria-label= "new task name"
+				  />
 				  <button class="btn create" aria-label = "create new task">+</button>	
 				</form>
 			</div>
 
 			<div class="delete-stuff">
-				<button class="btn delete">clear completed task</button>
-				<button class="btn delete">delete list</button>
+				<button class="btn delete" Data-clear-complete-task-button>clear completed task</button>
+				<button class="btn delete" Data-delete-list-button>delete list</button>
 			</div>
 		</div>
 	</div>
 
+	<template id="task-template">
+		<div class="task">
+			<input type="checkbox" />
+			<label>
+				<span class="custom-checkbox"></span>
+			</label>
+		</div>
+	</template>
 
-	<script>
-		function toggledark() {
-			// body...
-			var x = document.getElementById("body"); 
-			x.style.background = "black"; 
 
-		}
 
-	</script>
+	<script type="text/javascript" src="script.js"></script>
+
 
 </body>
 </html>
