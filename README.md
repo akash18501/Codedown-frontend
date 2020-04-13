@@ -9,8 +9,13 @@ date: 11/4/2020
   the javascript of my first javascript based project , but I think 
   it was work it. 
 
+  *In the todo app the data gets saved to the local storage of the 
+  browser so you don't lose it even if you close your borwser and 
+  reopen it.
+
 date: 13/4/2020 
 
  * made a calculator using html, css and javascript , it has an apple phone 
    theme and you cannot select the content on the page by dragging the mouse
    which usually happens on a website. 
+
