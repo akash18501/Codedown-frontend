@@ -1,23 +1,23 @@
 //getting the number references
 
-const numberone = document.getElementById('one'); 
-const numbertwo = document.getElementById('two'); 
-const numberthree = document.getElementById('three'); 
-const numberfour = document.getElementById('four'); 
-const numberfive = document.getElementById('five'); 
-const numbersix = document.getElementById('six'); 
-const numberseven = document.getElementById('seven'); 
-const numbereight = document.getElementById('eight'); 
-const numbernine = document.getElementById('nine'); 
-const numberzero = document.getElementById('zero'); 
+// const numberone = document.getElementById('one'); 
+// const numbertwo = document.getElementById('two'); 
+// const numberthree = document.getElementById('three'); 
+// const numberfour = document.getElementById('four'); 
+// const numberfive = document.getElementById('five'); 
+// const numbersix = document.getElementById('six'); 
+// const numberseven = document.getElementById('seven'); 
+// const numbereight = document.getElementById('eight'); 
+// const numbernine = document.getElementById('nine'); 
+// const numberzero = document.getElementById('zero'); 
 
 //getting the operator references
 
-const plusbutton = document.getElementById('plus');
-const minusbutton = document.getElementById('minus');
-const multiplybutton = document.getElementById('multiply');
-const dividebutton = document.getElementById('divide');
-const equaltobutton = document.getElementById('equalto'); 
+// const plusbutton = document.getElementById('plus');
+// const minusbutton = document.getElementById('minus');
+// const multiplybutton = document.getElementById('multiply');
+// const dividebutton = document.getElementById('divide');
+// const equaltobutton = document.getElementById('equalto'); 
 
 //getting others 
 

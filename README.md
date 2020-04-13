@@ -8,3 +8,9 @@ date: 11/4/2020
   * addes the javascript work on this project . it took a while to complete 
   the javascript of my first javascript based project , but I think 
   it was work it. 
+
+date: 13/4/2020 
+
+ * made a calculator using html, css and javascript , it has an apple phone 
+   theme and you cannot select the content on the page by dragging the mouse
+   which usually happens on a website. 
