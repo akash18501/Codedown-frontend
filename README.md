@@ -19,3 +19,7 @@ date: 13/4/2020
    theme and you cannot select the content on the page by dragging the mouse
    which usually happens on a website. 
 
+
+date: 14/4/2020 
+ *made a analog clock app using html, css and js. 
+  took a lot of time in finding a good background
