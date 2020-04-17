@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animating the circle</title>
+	<style>
+
+		body,html{
+			margin:  0; 
+			overflow: hidden; 
+			/* box-sizing: border-box;  */
+		}
+		#myCanvas{
+			background: linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+			border:  1px solid black; 
+		}	
+	</style>
+</head>
+<body>
+
+	<canvas id="myCanvas"></canvas>
+
+
+	<script src="script2.js"></script>
+<!-- 	<script>
+		window.onload = function(){
+			init(); 
+			window.addEventListener('resize',init,false); 
+		}
+		function () {
+			var can = document.getElementById('myCanvas'); 
+			var context = can.getContext('2d'); 
+			var mywidth = window.innerWidth-5; 
+			var myheight = window.innerHeight; 
+			context.canvas.width = mywidth; 
+			context.canvas.height = myheight; 
+		}
+	</script> -->
+</body>
+</html>
