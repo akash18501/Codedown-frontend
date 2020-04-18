@@ -34,3 +34,9 @@ date: 17/4/2020
 2.interactive_animation 
   *This one is a better version with user interaction , and its completely responsive , you can use it on any device. 
   *you have to move your mouse gently on the browser to see the interaction part of this. 
+
+
+date: 18/4/2020
+
+	*added a animation simulating gravity , we can change the value of acceleration due to gravity , friction , velocity in x and y direction to make it behave differently 
+	, once all the balls have setteled down we can click to restart the animation . 
