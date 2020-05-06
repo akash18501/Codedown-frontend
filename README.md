@@ -40,3 +40,7 @@ date: 18/4/2020
 
 	*added a animation simulating gravity , we can change the value of acceleration due to gravity , friction , velocity in x and y direction to make it behave differently 
 	, once all the balls have setteled down we can click to restart the animation . 
+
+
+date:6/5/2020 
+	added a breakout game using javascript and html5 canvas
